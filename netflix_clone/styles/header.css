@@ -26,15 +26,15 @@
 
 }
 
-.netflix_title{
+.netflix-title{
   cursor: pointer;
 }
 
-.netflix_title_img {
+.netflix-title-img {
   height: 50px;
 }
 
-.user_icon {
+.user-icon {
   height: 30px;
   border-radius: 5px;
   cursor: pointer;
