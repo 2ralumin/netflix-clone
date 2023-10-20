@@ -10,9 +10,9 @@ body {
   display: flex;
   flex-direction: column;
   overflow-y:auto;
-  background-color: #141414;
+  background-color: var(--back);
 
-  color : white;
+  color : var(--text);
 }
 
 img {
@@ -22,4 +22,9 @@ img {
 .main-background {
   position: absolute;
   width: 100%;
+}
+
+:root {
+  --back : #141414;
+  --text : white;
 }
